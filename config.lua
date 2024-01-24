@@ -357,7 +357,7 @@ Config.DoorList = {
 		authorizedJobs = { 'police' },
 		locked = true,
 		pickable = false,
-		distance = 1.0,
+		distance = 2.0,
 	},
 	-- Mission Row Back
 	-- Back (double doors)
