@@ -50,44 +50,55 @@ Config.DoorList['configname-identifier'] = {
 
 Config.DoorStates = {}
 Config.DoorList = {
+	{                                                          -- door pacific first door card b
+	objName = 409280169,
+	objCoords  = vec3(272.642151, 219.898712, 97.317978),
+	textCoords = vec3(272.642151, 219.898712, 97.317978),
+	authorizedJobs = { 'police' },
+	objYaw = 340.00024414062,
+	locked = true,
+	pickable = false,
+	distance = 1.5,
+	},
+	--door2 for pacific opened with thermite front near the card b door    [door id 2]
 	{
-		objName = 'hei_v_ilev_bk_gate2_pris',
-		objCoords  = vec3(261.83, 221.39, 106.41),
-		textCoords = vec3(261.83, 221.39, 106.41),
+		objName = 409280169,                                           
+		objCoords  = vec3(270.103210, 212.922928, 97.317978),         
+		textCoords = vec3(270.103210, 212.922928, 97.317978),
 		authorizedJobs = { 'police' },
-		objYaw = -110.0,
+		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
 		distance = 1.5,
 	},
-	--door2 for pacific opened with thermite right near the vault door
+	--door3 for pacific opened with thermite right near the vault door         [door id 3]
 	{
-		objName = 'hei_v_ilev_bk_safegate_pris',
-		objCoords  = vec3(252.98, 220.65, 101.8),
-		textCoords = vec3(252.98, 220.65, 101.8),
+		objName = 409280169,
+		objCoords  = vec3(250.564209, 233.399384, 97.317978),       
+		textCoords = vec3(250.564209, 233.399384, 97.317978),
 		authorizedJobs = { 'police' },
-		objYaw = 160.0,
+		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
 		distance = 1.5
 	},
-	-- door3 for pacific opened with thermite after passing the door near vault
+	-- door4 for pacific opened with thermite after passing the door near vault    [door id 4]
 	{
-		objName = 'hei_v_ilev_bk_safegate_pris',
-		objCoords  = vec3(261.68, 215.62, 101.81),
-		textCoords = vec3(261.68, 215.62, 101.81),
+		objName = 409280169,
+		objCoords  = vec3(244.558014, 216.897278, 97.317978),
+		textCoords = vec3(244.558014, 216.897278, 97.317978),
 		authorizedJobs = { 'police' },
-		objYaw = -110.0,
+		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
 		distance = 1.5
 	},
 	-- Paleto Door 1 opened with security card A
 	{
-		objName = 'v_ilev_cbankvaulgate01',
-		objCoords  = vec3(-105.77, 6472.59, 31.81),
-		textCoords = vec3(-105.77, 6472.59, 31.81),
-		objYaw = 45.0,
+		objName = -2050208642,
+		objCoords = vec3(-100.241867, 6464.549316, 31.884604),
+		textCoords = vec3(-100.241867, 6464.549316, 31.884604),
+		objYaw = 225.00010681152,
 		authorizedJobs = { 'police' },
 		locked = true,
 		pickable = false,
@@ -106,22 +117,22 @@ Config.DoorList = {
 	},
 	-- First Pacific Door opened with lockpick
 	{
-		objName = 'hei_v_ilev_bk_gate_pris',
-		objCoords  = vec3(257.41, 220.25, 106.4),
-		textCoords = vec3(257.41, 220.25, 106.4),
+		objName = 643152522,
+		objCoords  = vec3(225.646286, 228.886780, 97.323975),
+		textCoords = vec3(225.646286, 228.886780, 97.323975),
 		authorizedJobs = { 'police' },
-		objYaw = -20.0,
+		objYaw = 160.00025939941,
 		locked = true,
 		pickable = true,
 		distance = 1.5
 	},
 	-- Second Pacific Door opened with lockpick
 	{
-		objName = 'v_ilev_bk_door',
-		objCoords  = vec3(265.19, 217.84, 110.28),
-		textCoords = vec3(265.19, 217.84, 110.28),
+		objName = 643152522,
+		objCoords  = vec3(229.890533, 227.342010, 97.323975),
+		textCoords = vec3(229.890533, 227.342010, 97.323975),
 		authorizedJobs = { 'police' },
-		objYaw = -20.0,
+		objYaw = 340.00024414062,
 		locked = true,
 		pickable = true,
 		distance = 1.5
