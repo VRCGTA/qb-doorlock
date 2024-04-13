@@ -1519,6 +1519,19 @@ table.insert(Config.DoorList, {
 	}
 })
 
+-- Captain's Office{
+table.insert(Config.DoorList, {
+	objHash = -96679321, 
+	objCoords = vector3(458.65, -990.64, 30.82),
+	locked = true,
+	fixText = true,
+	objHeading = 180,
+	maxDistance = 2,
+	authorizedJobs = {
+		['police'] = 0,
+	}
+})
+
 -- Cell entrance 1
 table.insert(Config.DoorList, {
 	objCoords = vector3(476.6157, -1008.875, 26.48005),
