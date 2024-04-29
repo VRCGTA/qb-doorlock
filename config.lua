@@ -1814,6 +1814,91 @@ table.insert(Config.DoorList, {
 	}
 })
 
+-- burgershot
+table.insert(Config.DoorList, { -- front
+	objCoords = vector3(-1188.0657958984, -896.67840576172, 13.905561447144),
+	objHeading = 303.70703125,
+	slides = false,
+	garage = false,
+	maxDistance = 2,
+	fixText = true,
+	objHash = 2010236044,
+	locked = true,
+	lockpick = false,
+	audioRemote = false,
+	authorizedJobs = {
+		['burgershot'] = 0,
+	}
+})
+
+table.insert(Config.DoorList, { -- middle
+	objCoords = vector3(-1200.7210693359, -900.77172851562, 13.905561447144),
+	objHeading = 214.71704101562,
+	slides = false,
+	garage = false,
+	maxDistance = 2,
+	fixText = true,
+	objHash = 2010236044,
+	locked = true,
+	lockpick = false,
+	audioRemote = false,
+	authorizedJobs = {
+		['burgershot'] = 0,
+	}
+})
+
+table.insert(Config.DoorList, { -- back
+	objCoords = vector3(-1197.0991210938, -903.93939208984, 14.035265922546),
+	objHeading = 213.76634216309,
+	slides = false,
+	garage = false,
+	maxDistance = 2,
+	fixText = true,
+	objHash = 1465287574,
+	locked = true,
+	lockpick = false,
+	audioRemote = false,
+	authorizedJobs = {
+		['burgershot'] = 0,
+	}
+})
+
+table.insert(Config.DoorList, { -- entrance rignt
+	objCoords = vector3(-1182.1828613281, -885.33081054688, 14.095269203186),
+	objHeading = 124.18116760254,
+	slides = false,
+	garage = false,
+	maxDistance = 2,
+	fixText = true,
+	objHash = 1143532813,
+	locked = true,
+	lockpick = false,
+	audioRemote = false,
+	authorizedJobs = {
+		['burgershot'] = 0,
+	}
+})
+
+table.insert(Config.DoorList, { -- entrance left
+	objCoords = vector3(-1180.728515625, -887.47735595703, 14.095269203186),
+	objHeading = 305.87939453125	,
+	slides = false,
+	garage = false,
+	maxDistance = 2,
+	fixText = true,
+	objHash = -1890974902,
+	locked = true,
+	lockpick = false,
+	audioRemote = false,
+	authorizedJobs = {
+		['burgershot'] = 0,
+	}
+})
+
+
+
+-- burgershot end
+
 -- -- Mrpd bollards 1 - "gabz_mrpd_bollards1"
 -- table.insert(Config.DoorList, {
 -- 	objHeading = 269.8766784668,
