@@ -76,3 +76,22 @@ table.insert(Config.DoorList, {
 	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
 	-- autoLock = 1000
 })
+
+-- Down stairs - Garage door (from outside)
+table.insert(Config.DoorList, {
+	lockpick = false,
+	objCoords = vector3(-816.2236, -740.1627, 24.16524),
+	slides = 6.0,
+	objHash = -700626879, -- denis3d_wuchang_records_warehousegate
+	garage = true,
+	authorizedJobs = { ['meaty']=0 },
+	maxDistance = 6.0,
+	objHeading = 0.0,
+	fixText = false,
+	audioRemote = false,
+	locked = true,		
+	-- oldMethod = true,
+	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+	-- autoLock = 1000
+})
