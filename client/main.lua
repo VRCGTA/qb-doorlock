@@ -452,7 +452,7 @@ RegisterNetEvent('qb-doorlock:client:setState', function(serverId, doorID, state
 end)
 
 RegisterNetEvent('lockpicks:UseLockpick', function(isAdvanced)
-    if not closestDoor.data or not next(closestDoor.data) or PlayerData.metadata['isdead'] or PlayerData.metadata['ishandcuffed'] or (not closestDoor.data.pickable and not closestDoor.data.lockpick) or not closestDoor.data.locked then
+    if not closestDoor.data or not next(closestDoor.data) or PlayerData.condition.in_dead or PlayerData.metadata['ishandcuffed'] or (not closestDoor.data.pickable and not closestDoor.data.lockpick) or not closestDoor.data.locked then
         return
     end
 
@@ -740,7 +740,7 @@ RegisterCommand('toggledoorlock', function()
 
 	local distanceCheck = closestDoor.distance > (closestDoor.data.distance or closestDoor.data.maxDistance)
 	local unlockableCheck = (closestDoor.data.cantUnlock and closestDoor.data.locked)
-	local busyCheck = PlayerData.metadata['isdead'] or PlayerData.metadata['inlaststand'] or PlayerData.metadata['ishandcuffed']
+	local busyCheck = PlayerData.condition.in_dead or PlayerData.condition.in_last_stand or PlayerData.metadata['ishandcuffed']
     if distanceCheck or unlockableCheck or busyCheck then return end
 
 	playerPed = PlayerPedId()
@@ -789,7 +789,7 @@ RegisterCommand('remotetriggerdoor', function()
 	if not nearestDoor then return end
 
 	local unlockableCheck = (nearestDoor.data.cantUnlock and nearestDoor.data.locked)
-	local busyCheck = PlayerData.metadata['isdead'] or PlayerData.metadata['inlaststand'] or PlayerData.metadata['ishandcuffed']
+	local busyCheck = condition.in_dead or PlayerData.condition.in_last_stand or PlayerData.metadata['ishandcuffed']
 	if unlockableCheck or busyCheck then return end
 
 	playerPed = PlayerPedId()
