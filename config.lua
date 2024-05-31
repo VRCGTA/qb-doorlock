@@ -54,7 +54,10 @@ Config.DoorList = {
 	objName = 409280169,
 	objCoords  = vec3(272.642151, 219.898712, 97.317978),
 	textCoords = vec3(272.642151, 219.898712, 97.317978),
-	authorizedJobs = { 'police' },
+	authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 	objYaw = 340.00024414062,
 	locked = true,
 	pickable = false,
@@ -65,7 +68,10 @@ Config.DoorList = {
 		objName = 409280169,                                           
 		objCoords  = vec3(270.103210, 212.922928, 97.317978),         
 		textCoords = vec3(270.103210, 212.922928, 97.317978),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
@@ -76,7 +82,10 @@ Config.DoorList = {
 		objName = 409280169,
 		objCoords  = vec3(250.564209, 233.399384, 97.317978),       
 		textCoords = vec3(250.564209, 233.399384, 97.317978),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
@@ -87,7 +96,10 @@ Config.DoorList = {
 		objName = 409280169,
 		objCoords  = vec3(244.558014, 216.897278, 97.317978),
 		textCoords = vec3(244.558014, 216.897278, 97.317978),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		objYaw = 340.00024414062,
 		locked = true,
 		pickable = false,
@@ -99,7 +111,10 @@ Config.DoorList = {
 		objCoords = vec3(-100.241867, 6464.549316, 31.884604),
 		textCoords = vec3(-100.241867, 6464.549316, 31.884604),
 		objYaw = 225.00010681152,
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.5
@@ -110,7 +125,10 @@ Config.DoorList = {
 		objCoords  = vec3(-106.26, 6476.01, 31.98),
 		textCoords = vec3(-105.5, 6475.08, 31.99),
 		objYaw = -45.0,
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.5
@@ -120,7 +138,10 @@ Config.DoorList = {
 		objName = 643152522,
 		objCoords  = vec3(225.646286, 228.886780, 97.323975),
 		textCoords = vec3(225.646286, 228.886780, 97.323975),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		objYaw = 160.00025939941,
 		locked = true,
 		pickable = true,
@@ -131,7 +152,10 @@ Config.DoorList = {
 		objName = 643152522,
 		objCoords  = vec3(229.890533, 227.342010, 97.323975),
 		textCoords = vec3(229.890533, 227.342010, 97.323975),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		objYaw = 340.00024414062,
 		locked = true,
 		pickable = true,
@@ -142,7 +166,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gb_vaubar',
 		objCoords  = vec3(314.61, -285.82, 54.49),
 		textCoords = vec3(313.3, -285.45, 54.49),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = true,
 		distance = 1.5
@@ -152,7 +179,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gb_vaubar',
 		objCoords  = vec3(148.96, -1047.12, 29.7),
 		textCoords = vec3(148.96, -1047.12, 29.7),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = true,
 		distance = 1.5
@@ -162,7 +192,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gb_vaubar',
 		objCoords  = vec3(-351.7, -56.28, 49.38),
 		textCoords = vec3(-351.7, -56.28, 49.38),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = true,
 		distance = 1.5
@@ -172,7 +205,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gb_vaubar',
 		objCoords  = vec3(-1208.12, -335.586, 37.759),
 		textCoords = vec3(-1208.12, -335.586, 37.759),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = true,
 		distance = 1.5
@@ -182,7 +218,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gb_vaubar',
 		objCoords  = vec3(-2956.18, 483.96, 16.02),
 		textCoords = vec3(-2956.18, 483.96, 16.02),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = true,
 		distance = 1.5
@@ -192,7 +231,10 @@ Config.DoorList = {
 		objName = 'prop_gate_prison_01',
 		objCoords  = vec3(1844.9, 2604.8, 44.6),
 		textCoords = vec3(1844.9, 2608.5, 48.0),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 13
@@ -202,7 +244,10 @@ Config.DoorList = {
 		objName = 'prop_gate_prison_01',
 		objCoords  = vec3(1818.5, 2604.8, 44.6),
 		textCoords = vec3(1818.5, 2608.4, 48.0),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 13
@@ -212,7 +257,10 @@ Config.DoorList = {
 		objName = 'prop_gate_prison_01',
 		objCoords = vec3(1799.237, 2616.303, 44.6),
 		textCoords = vec3(1795.941, 2616.969, 48.0),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 10
@@ -222,7 +270,10 @@ Config.DoorList = {
 	-- Bureau Paleto Bay
 	{
 		textCoords = vec3(-435.57, 6008.76, 27.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -245,7 +296,10 @@ Config.DoorList = {
 		objYaw = 135.0,
 		objCoords  = vec3(-450.9664, 6006.086, 31.99004),
 		textCoords = vec3(-451.38, 6006.55, 31.84),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -256,7 +310,10 @@ Config.DoorList = {
 		objYaw = -45.0,
 		objCoords  = vec3(-447.2363, 6002.317, 31.84003),
 		textCoords = vec3(-446.77, 6001.84, 31.68),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -267,7 +324,10 @@ Config.DoorList = {
 		objYaw = -45.0,
 		objCoords  = vec3(-450.7136, 6016.371, 31.86523),
 		textCoords = vec3(-450.15, 6015.96, 31.71),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -278,7 +338,10 @@ Config.DoorList = {
 		objYaw = 45.0,
 		objCoords  = vec3(-454.0435, 6010.243, 31.86106),
 		textCoords = vec3(-453.56, 6010.73, 31.71),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -289,7 +352,10 @@ Config.DoorList = {
 		objYaw = -135.0,
 		objCoords  = vec3(-439.1576, 5998.157, 31.86815),
 		textCoords = vec3(-438.64, 5998.51, 31.71),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -300,7 +366,10 @@ Config.DoorList = {
 		objYaw = 45.0,
 		objCoords  = vec3(-436.6276, 6002.548, 28.14062),
 		textCoords = vec3(-437.09, 6002.100, 27.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -311,7 +380,10 @@ Config.DoorList = {
 		objYaw = 45.0,
 		objCoords  = vec3(-438.228, 6006.167, 28.13558),
 		textCoords = vec3(-438.610, 6005.64, 27.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -322,7 +394,10 @@ Config.DoorList = {
 		objYaw = 45.0,
 		objCoords  = vec3(-442.1082, 6010.052, 28.13558),
 		textCoords = vec3(-442.55, 6009.61, 27.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -333,7 +408,10 @@ Config.DoorList = {
 		objYaw = 45.0,
 		objCoords  = vec3(-444.3682, 6012.223, 28.13558),
 		textCoords = vec3(-444.77, 6011.74, 27.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0,
@@ -341,7 +419,10 @@ Config.DoorList = {
 	-- Hallway (double doors)
 	{
 		textCoords = vec3(-442.09, 6011.93, 31.86523),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -362,7 +443,10 @@ Config.DoorList = {
 	-- Hallway to the back (double doors)
 	{
 		textCoords = vec3(-448.67, 6007.52, 31.86523),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -385,7 +469,10 @@ Config.DoorList = {
 		objName = 'prop_fnclink_03gate5',
 		objCoords = vec3(1796.322, 2596.574, 45.565),
 		textCoords = vec3(1796.322, 2596.574, 45.965),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -394,7 +481,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords = vec3(1821.677, 2477.265, 45.945),
 		textCoords = vec3(1821.677, 2477.265, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -403,7 +493,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords = vec3(1760.692, 2413.251, 45.945),
 		textCoords = vec3(1760.692, 2413.251, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -412,7 +505,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords = vec3(1543.58, 2470.252, 45.945),
 		textCoords = vec3(1543.58, 2470.25, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -421,7 +517,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords = vec3(1659.733, 2397.475, 45.945),
 		textCoords = vec3(1659.733, 2397.475, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -430,7 +529,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords = vec3(1537.731, 2584.842, 45.945),
 		textCoords = vec3(1537.731, 2584.842, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -439,7 +541,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords  = vec3(1571.964, 2678.354, 45.945),
 		textCoords = vec3(1571.964, 2678.354, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -448,7 +553,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords  = vec3(1650.18, 2755.104, 45.945),
 		textCoords = vec3(1650.18, 2755.104, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -457,7 +565,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords  = vec3(1771.98, 2759.98, 45.945),
 		textCoords = vec3(1771.98, 2759.98, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -466,7 +577,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords  = vec3(1845.7, 2699.79, 45.945),
 		textCoords = vec3(1845.7, 2699.79, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -475,7 +589,10 @@ Config.DoorList = {
 		objName = 'v_ilev_gtdoor',
 		objCoords  = vec3(1820.68, 2621.95, 45.945),
 		textCoords = vec3(1820.68, 2621.95, 45.945),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5
@@ -487,7 +604,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1819.129, 2593.64, 46.09929),
 		textCoords = vec3(1843.3, 2579.39, 45.98),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -498,7 +618,10 @@ Config.DoorList = {
 		objYaw = 360.0,
 		objCoords  = vec3(1827.365, 2587.547, 46.09929),
 		textCoords = vec3(1835.76, 2583.15, 45.95),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -509,7 +632,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1826.466, 2585.271, 46.09929),
 		textCoords = vec3(1835.77, 2589.76, 45.95),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.0
@@ -520,7 +646,10 @@ Config.DoorList = {
 		objYaw = 0.0,
 		objCoords  = vec3(1827.521, 2583.905, 45.28576),
 		textCoords = vec3(1828.638, 2584.675, 45.95233),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2
@@ -531,7 +660,10 @@ Config.DoorList = {
 		objYaw = 270.0,
 		objCoords  = vec3(1837.714, 2595.185, 46.09929),
 		textCoords = vec3(1837.714, 2595.185, 46.09929),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.5
@@ -542,7 +674,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1837.697, 2585.24, 46.09929),
 		textCoords = vec3(1837.697, 2585.24, 46.09929),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.5
@@ -553,7 +688,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1845.198, 2585.24, 46.09929),
 		textCoords = vec3(1845.198, 2585.24, 46.09929),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = false,
 		pickable = false,
 		distance = 1.5
@@ -564,7 +702,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1791.18, 2593.11, 546.15),
 		textCoords = vec3(1791.18, 2593.11, 546.15),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -575,7 +716,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1784, 2599, 46),
 		textCoords = vec3(1785.808, 2590.02, 44.79703),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -585,14 +729,20 @@ Config.DoorList = {
 		objYaw = 0.0,
 		objCoords  = vec3(1786, 2600, 46),
 		textCoords = vec3(1785.808, 2590.02, 44.79703),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
 	},
 	{
 		textCoords = vec3(1785.83, 2609.59, 45.99),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -612,7 +762,10 @@ Config.DoorList = {
 	},
 	{
 		textCoords = vec3(1779.67, 2601.83, 50.71),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -635,7 +788,10 @@ Config.DoorList = {
 		objYaw = 0.0,
 		objCoords  = vec3(1780, 2596, 51),
 		textCoords = vec3(1785.808, 2590.02, 44.79703),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -645,7 +801,10 @@ Config.DoorList = {
 		objYaw = 0.0,
 		objCoords  = vec3(1787, 2621, 46),
 		textCoords = vec3(1785.808, 2590.02, 44.79703),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -655,14 +814,20 @@ Config.DoorList = {
 		objYaw = 270.0,
 		objCoords  = vec3(1788, 2606, 51),
 		textCoords = vec3(1785.808, 2590.02, 44.79703),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
 	},
 	{
 		textCoords = vec3(1791.08, 2593.76, 46.18),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -686,7 +851,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1786.4, 2579.8, 45.97),
 		textCoords = vec3(1786.4, 2579.8, 45.97),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 1.0
@@ -697,7 +865,10 @@ Config.DoorList = {
 		objYaw = 0.0,
 		objCoords  = vec3(1786, 2567, 46),
 		textCoords = vec3(1778.91, 2568.91, 46.07),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -708,14 +879,20 @@ Config.DoorList = {
 		objYaw = 270.0,
 		objCoords  = vec3(1792, 2551, 46),
 		textCoords = vec3(1773.49, 2568.9, 46.07),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
 	},
 	{
 		textCoords = vec3( 1781.72, 2552.07, 49.57),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.5,
@@ -739,7 +916,10 @@ Config.DoorList = {
 		objYaw = 90.0,
 		objCoords  = vec3(1786, 2552, 50),
 		textCoords = vec3(1760.89, 2578.51, 46.07),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -750,7 +930,10 @@ Config.DoorList = {
 		objYaw = 180.0,
 		objCoords  = vec3(1785, 2550, 46),
 		textCoords = vec3(1760.89, 2578.51, 46.07),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -760,7 +943,10 @@ Config.DoorList = {
 		objYaw = 270.0,
 		objCoords  = vec3(1776, 2551, 46),
 		textCoords = vec3(1760.89, 2578.51, 46.07),
-		authorizedJobs = { 'police' },
+		authorizedJobs = {
+        ['police'] = 0,
+        ['fwat'] = 0,
+    },
 		locked = true,
 		pickable = false,
 		distance = 2.0
@@ -1167,6 +1353,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 
 	}
 })
@@ -1189,6 +1376,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 
 	}
 })
@@ -1211,6 +1399,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1224,6 +1413,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1236,6 +1426,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1249,6 +1440,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1262,6 +1454,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1277,6 +1470,7 @@ table.insert(Config.DoorList, {
 -- 	maxDistance = 6,
 -- 	authorizedJobs = {
 -- 		['police'] = 0,
+ --       ['fwat'] = 0,
 -- 	}
 -- })
 
@@ -1292,6 +1486,7 @@ table.insert(Config.DoorList, {
 -- 	maxDistance = 6,
 -- 	authorizedJobs = {
 -- 		['police'] = 0,
+--        ['fwat'] = 0,
 
 -- 	}
 -- })
@@ -1307,6 +1502,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 6,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 
 	}
 })
@@ -1329,6 +1525,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 
 	}
 })
@@ -1343,6 +1540,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1356,6 +1554,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1376,6 +1575,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1396,6 +1596,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1416,6 +1617,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1436,6 +1638,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1456,6 +1659,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1476,6 +1680,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1496,6 +1701,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1509,6 +1715,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1522,6 +1729,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1535,6 +1743,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1548,6 +1757,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1561,6 +1771,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1574,6 +1785,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1587,6 +1799,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1600,6 +1813,7 @@ table.insert(Config.DoorList, {
 	maxDistance = 2,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1621,6 +1835,7 @@ table.insert(Config.DoorList, {
 	},
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
@@ -1638,6 +1853,7 @@ table.insert(Config.DoorList, {
 	audioRemote = false,
 	authorizedJobs = {
 		['police'] = 0,
+        ['fwat'] = 0,
 	}
 })
 
